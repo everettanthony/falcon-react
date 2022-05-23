@@ -1,0 +1,65 @@
+.home-banner {
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: calc(100vh - 74px);
+  margin: 0;
+  padding: 0 2rem;
+  position: relative;
+
+  @media (min-width: 992px) {
+    align-items: flex-end;
+    height: calc(100vh - 190px);
+    margin: 0;
+    padding: 0 7rem;
+  }
+
+  &-body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 31.25rem;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+
+    @media (min-width: 992px) {
+      align-items: flex-start;
+      margin: 0 0 5.7rem;
+      text-align: left;
+    }
+  }
+
+  &-title {
+    color: #fff;
+    font-family: "PT Serif", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .4px;
+    line-height: 2.1rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 1px 1px 0 #000;
+
+    @media (min-width: 992px) {
+      font-size: 2.3rem;
+      line-height: 2.8rem;
+    }
+  }
+
+  &-overlay {
+    background-color: rgba(0,63,121,.9);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+    @media (min-width: 992px) {
+      background-color: rgba(0,0,0,.2);
+    }
+  }
+}
