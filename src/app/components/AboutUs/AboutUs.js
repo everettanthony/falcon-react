@@ -14,7 +14,7 @@ function AboutUs() {
           document scanning, process services, e-discovery or other copying needs. 
           We develop real relationships with our downtown Fort Worth and Dallas area 
           customers to provide what you need when you need it.</p>
-        <Link to="/services" class="btn btn-primary about-btn">Learn More</Link>
+        <Link to="/services" className="btn btn-primary about-btn">Learn More</Link>
       </div>
     </div>
   );

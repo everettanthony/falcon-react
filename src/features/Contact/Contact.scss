@@ -1,0 +1,76 @@
+.contact {
+  background: #eee;
+  padding: 0;
+
+  @media (min-width: 992px) {
+    padding: 2.5rem 4rem;
+  }
+
+  &-col {
+    &.col-xxl-8 {
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 2rem 1.6rem;
+    }
+  }
+
+  &-title {
+    color: #00539f;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 1.3rem;
+  }
+
+  &-gen {
+    margin-bottom: 2rem;
+  }
+
+  &-address {
+    padding-left: .2rem;
+  }
+
+  &-office {
+    font-size: 1.17em;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &-phone {
+    a {
+      color: #2d2d2d;
+      text-decoration: none;
+  
+      &:hover {
+        color: #2d2d2d;
+      }
+    }
+  }
+
+  &-email {
+    color: #00539f;
+
+    &:hover {
+      color: #002b53;
+    }
+  }
+
+  &-form {
+    label {
+      font-size: .9rem;
+      font-weight: 700;
+      margin: 0 0 0.3rem;
+      padding: 0 0.3rem;
+    }
+  }
+
+  &-form-btns {
+    width: 100%;
+
+    .btn {
+      &.contact-submit {
+        flex: 0 1 auto;
+        margin-left: auto;
+      }
+    }
+  }
+}

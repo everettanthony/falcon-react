@@ -62,8 +62,8 @@
     }   
   }
 
-  &-btn {
-    display: block;
+  .btn-primary.about-btn {
+    display: flex;
     margin-top: 8px;
     text-align: center;
 

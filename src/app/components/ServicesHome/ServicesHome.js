@@ -3,13 +3,13 @@ import IconDiscovery from '../../assets/img/icons/icon-discovery.svg'
 import IconImaging from '../../assets/img/icons/icon-imaging.svg';
 import IconPrinting from '../../assets/img/icons/icon-printing.svg';
 import IconProcess from '../../assets/img/icons/icon-process.svg';
-import './Services.scss';
+import './ServicesHome.scss';
 
-function Services() {
+function ServicesHome() {
   return (
     <div className="services">
       <div className="services-item">
-        <Link to="/services/document-imaging" class="services-icon">
+        <Link to="/services/document-imaging" className="services-icon">
           <img src={IconImaging} alt="Imaging Fort Worth" width="100" height="101" />
         </Link>
         <h2 className="services-hdr">Imaging</h2>
@@ -23,7 +23,7 @@ function Services() {
         </div>
       </div>
       <div className="services-item">
-        <Link to="/services/printing-copying" class="services-icon">
+        <Link to="/services/printing-copying" className="services-icon">
           <img src={IconPrinting} alt="Printing Services Fort Worth" width="120" height="106" />
         </Link>
         <h2 className="services-hdr">Printing</h2>
@@ -36,7 +36,7 @@ function Services() {
         </div>
       </div>
       <div className="services-item">
-        <Link to="/services/electronic-discovery" class="services-icon">
+        <Link to="/services/e-discovery" className="services-icon">
           <img src={IconDiscovery} alt="E-Discovery Fort Worth" width="100" height="113" />
         </Link>
         <h2 className="services-hdr">E-Discovery</h2>
@@ -50,7 +50,7 @@ function Services() {
         </div>
       </div>
       <div className="services-item">
-        <Link to="/services/process-service" class="services-icon">
+        <Link to="/services/process-service" className="services-icon">
           <img src={IconProcess} alt="Process Services Fort Worth" width="100" height="123" />
         </Link>
         <h2 className="services-hdr">Process Services</h2>
@@ -66,4 +66,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default ServicesHome;

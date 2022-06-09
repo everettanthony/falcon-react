@@ -39,11 +39,11 @@ function Footer() {
           <div className="footer-locations">
             <div className="footer-office">
               <div className="footer-office-name">Fort Worth</div>
-              <a href="tel:817-870-0330" class="footer-office-phone">817-870-0330</a>
+              <a href="tel:817-870-0330" className="footer-office-phone">817-870-0330</a>
             </div>
             <div className="footer-office">
               <div className="footer-office-name">Dallas</div>
-              <a href="tel:817-870-0330" class="footer-office-phone">817-870-0330</a>
+              <a href="tel:817-870-0330" className="footer-office-phone">817-870-0330</a>
             </div>
           </div>
         </div>

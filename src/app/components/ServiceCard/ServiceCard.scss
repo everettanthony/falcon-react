@@ -1,0 +1,41 @@
+.service-card.card {
+  overflow: hidden;
+  
+  .card-body {
+    @media (min-width: 768px) {
+      min-height: 218px;
+    }
+
+    @media (min-width: 1200px) {
+      min-height: 256px;
+    }
+
+    @media (min-width: 1400px) {
+      min-height: 186px;
+    }
+  }
+
+  .card-title {
+    font-size: 1.5em;
+    font-weight: 700;
+
+    a {
+      color: #00539f;
+      text-decoration: none;
+
+      &:hover {
+        color: #003f79;
+      }
+    }
+  }
+
+  .card-footer {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .card-btn {
+    border-radius: 0;
+    display: flex;
+  }
+}

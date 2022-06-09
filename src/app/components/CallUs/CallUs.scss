@@ -1,0 +1,36 @@
+.call {
+  background: #00539f;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: 992px) {
+    padding: 3.5rem 7rem;
+  }
+
+  &-content {
+    line-height: 1.4em;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+
+  &-phone {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+    text-decoration: none;
+
+    @media (min-width: 992px) {
+      display: inline-block;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
