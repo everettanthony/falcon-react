@@ -16,6 +16,14 @@ html, body, #root {
   font-family: $font-primary;
 }
 
+a {
+  color: #00539f;
+
+  &:hover {
+    color: #002b53;
+  }
+}
+
 p {
   font-family: $font-secondary;
   margin: 0;

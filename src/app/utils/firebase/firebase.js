@@ -15,6 +15,7 @@ import {
   setDoc,
   collection,
   query,
+  orderBy
 } from 'firebase/firestore';
 
 initializeApp(firebaseConfig);
@@ -32,7 +33,7 @@ export const getServicesAndDocuments = async () => {
 
 export const getBlogsAndDocuments = async () => {
   const collectionRef = collection(db, 'blogs');
-  const q = query(collectionRef);
+  const q = query(collectionRef, orderBy('postDate', 'desc'));
 
   const querySnapshot = await getDocs(q);
   return querySnapshot.docs.map((doc) => doc.data());

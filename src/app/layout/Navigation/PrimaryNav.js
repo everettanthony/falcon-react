@@ -22,7 +22,7 @@ function PrimaryNav() {
           <Link to="/services" className="nav-link">Services</Link>
           <Link to="/team" className="nav-link">Team</Link>
           <Link to="/location" className="nav-link">Location</Link>
-          <Link to="/blog" className="nav-link">Blog</Link>
+          <Link to="/blogs" className="nav-link">Blog</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </Navbar.Collapse>
         <Button variant="primary" className="btn-upload" onClick={handleUploadShow}>

@@ -4,7 +4,7 @@ import Home from '../../features/Home/Home';
 import Services from '../../features/Services/Services';
 import Team from '../../features/Team/Team';
 import Location from '../../features/Location/Location';
-import Blog from '../../features/Blog/Blog';
+import Blogs from '../../features/Blogs/Blogs';
 import Contact from '../../features/Contact/Contact';
 import './App.scss';
 
@@ -16,7 +16,7 @@ function App() {
         <Route path="services/*" element={<Services />} />
         <Route path="team" element={<Team />} />
         <Route path="location" element={<Location />} />
-        <Route path="blog/*" element={<Blog />} />
+        <Route path="blogs/*" element={<Blogs />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>

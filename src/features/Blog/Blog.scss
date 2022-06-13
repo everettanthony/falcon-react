@@ -1,0 +1,49 @@
+.blog {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  @media (min-width: 992px) {
+    padding: 2.5rem 4rem;
+  }
+
+  &-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 2rem 1.6rem;
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: 730px;
+    }
+  }
+
+  &-title {
+    color: #00539f;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+
+  &-date {
+    margin-bottom: 15px;
+  }
+
+  &-body {
+    margin-top: 20px;
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: 13px;
+      }
+    }
+  }
+
+  &-footer {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+}

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { selectServicesMap } from '../../app/store/services/services.selector';
 import { Link, useParams } from 'react-router-dom';
+import { selectServicesMap } from '../../app/store/services/services.selector';
 import './Service.scss';
 
 function Service() {
