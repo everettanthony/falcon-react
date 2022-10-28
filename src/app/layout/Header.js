@@ -4,8 +4,7 @@ function Header() {
   return (
     <header className="hdr">
       <div className="hdr-row hdr-info">
-        Fort Worth: <a href="tel:817-870-0330">817-870-0330</a> 
-        Dallas: <a href="tel:214-420-0030">214-420-0030</a>
+        Call Us: <a href="tel:817-870-0330">817-870-0330</a> 
       </div>
       <div className="hdr-row hdr-main">
         <PrimaryNav />

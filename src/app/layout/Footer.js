@@ -27,11 +27,6 @@ function Footer() {
               301 Commerce Street, Suite 240 <br/>
               Fort Worth, Texas 76102
             </div>
-            <div className="footer-office">
-              <div className="footer-office-name">Dallas</div>
-              1700 Pacific Avenue, Suite 4425 <br/>
-              Dallas, Texas 75201
-            </div>
           </div>  
         </div>
         <div className="footer-col">
@@ -39,10 +34,6 @@ function Footer() {
           <div className="footer-locations">
             <div className="footer-office">
               <div className="footer-office-name">Fort Worth</div>
-              <a href="tel:817-870-0330" className="footer-office-phone">817-870-0330</a>
-            </div>
-            <div className="footer-office">
-              <div className="footer-office-name">Dallas</div>
               <a href="tel:817-870-0330" className="footer-office-phone">817-870-0330</a>
             </div>
           </div>
