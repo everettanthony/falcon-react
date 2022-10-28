@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   height: calc(100vh - 74px);
+  justify-content: center;
   margin: 0;
   padding: 0 2rem;
   position: relative;
@@ -12,6 +13,7 @@
   @media (min-width: 992px) {
     align-items: flex-end;
     height: calc(100vh - 190px);
+    justify-content: flex-start;
     margin: 0;
     padding: 0 7rem;
   }
