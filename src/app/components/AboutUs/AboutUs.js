@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import AndyImg from '../../assets/img/andy.jpg';
+import ImgAbout from '../../assets/img/about.jpg';
 import './AboutUs.scss';
 
 function AboutUs() {
   return (
     <div className="about">
       <div className="about-col">
-        <img src={AndyImg} alt="Printing Fort Worth" width="580" height="368" />
+        <img src={ImgAbout} alt="Printing Fort Worth" width="835" height="368" />
       </div>
       <div className="about-col">
         <h2 className="about-hdr">About Us</h2>
@@ -20,4 +20,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default AboutUs; 

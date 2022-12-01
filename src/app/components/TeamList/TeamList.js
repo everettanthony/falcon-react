@@ -4,7 +4,7 @@ import './TeamList.scss';
 
 function TeamList(props) {
   return (
-    <Row xs={1} md={2} xl={4} className="g-1">
+    <Row xs={1} md={3} className="g-1">
       {props.team.map(employee => (
         <Col>
            <TeamCard key={employee.id} employee={employee} />     
